@@ -1,0 +1,16 @@
+POST:
+http://localhost:8080/test/payments
+{
+    "orderId": 345,
+    "paymentDate": "2023-10-16",
+    "paymentType": "Cash",
+    "amount": 600.50,
+    "customerId": 890,
+    "employeeId": 45153637,
+    "transactionId": "TXN124"
+}
+
+GET:
+http://localhost:8080/test/payments
+
+http://localhost:8080/test/payments/{OrderId}
